@@ -1,0 +1,9 @@
+body{
+    color:White;
+    background-color: black;
+}
+
+button{
+    outline: info;
+    width: 80px;
+}
