@@ -30,7 +30,12 @@ function am1(){
  }
 
  function a1(){
+   // let asme=document.querySelector("#a");  
     a.innerHTML+= 1;
+   //  asme.addEventListener("keypress", function(event){
+   //    console.log(event.key);
+      // a.innerHTML += event.key;
+   // });
  }
 
  function a2(){
@@ -132,6 +137,21 @@ function am1(){
    //  },700);
 
    a.innerHTML=eval(a.innerHTML);
+
  }
+
+ const num = document.querySelector("#r")
+   num.addEventListener("keydown", function(asme){
+   //  console.log(num.value);
+    // Queen  <3 
+});
+
+function check() {
+   a.innerHTML = eval(num.value);
+   a.classList.add("anim");
+   setTimeout(() => {
+      a.classList.remove("anim")
+   }, 2000);
+}
 
 
